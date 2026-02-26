@@ -1,0 +1,43 @@
+<head>
+  <meta charset="UTF-8">
+  <title>ProductManagementPartners</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+
+<body onload="loadHeader(); loadFooter();">
+  <div id="header"></div>
+  <section class="hero-content,hero h1, hero">
+   <div class="hero-content">
+    <center>
+     <h2 style="color:white">Precision tuning for the engine of your business.</h2>
+    </center>
+    <center><p>Growth often masks inefficiency—until it doesn&#39;t. Our Performance
+    Improvement practice is designed for organizations that need to do more with
+    what they already have. We dive into your operational value chain to identify
+    
+    bottlenecks, redundant workflows, and margin-killers. From streamlining the
+    product development lifecycle to optimizing unit economics, we bring a
+    surgical approach to operational excellence.</p>
+    <p><strong>Why Choose Us?</strong> We move beyond generic &quot;cost-cutting&quot; to focus on &quot;value-
+    freeing.&quot; We help you reinvest saved capital into innovation, ensuring your
+    leanest teams are also your most creative.</p>
+     
+    
+    
+    
+    </center>
+     
+    
+    
+    
+    </div>
+   
+   
+   
+    </section>
+
+
+
+  <div id="footer"></div>
+</body>

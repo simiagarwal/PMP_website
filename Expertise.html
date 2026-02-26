@@ -1,0 +1,85 @@
+<!-- strategy.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Strategy | ProductManagementPatners</title>
+ <link rel="stylesheet" href="styles.css">
+ <script>
+  function loadHeader() {
+   fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+     document.getElementById('header').innerHTML = data;
+    });
+  }
+
+  function loadFooter() {
+   fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+     document.getElementById('footer').innerHTML = data;
+    });
+  }
+ </script>
+</head>
+
+<body onload="loadHeader(); loadFooter();">
+ <div id="header"></div>
+ <br><br><br><br>
+
+
+ <!-- Main content for strategy page -->
+ <section class="hero-content,hero h1, hero">
+  <div class="hero-content">
+
+   <center>
+    <p>
+      Integrated Capabilities for the Modern Enterprise.
+      "We believe that true enterprise value is created at the intersection of Strategic Intent, Technical Precision, and
+      Human-Centric Design. At Product Management Partners, we don’t treat Data Science, UX Design, or Engineering as isolated
+      silos; we integrate them into a unified operating model designed to build, scale, and protect your most ambitious
+      innovations. Explore our core capabilities below to see how we turn complex challenges into defensible market
+      leadership."
+      
+      Our Core Pillars
+      1. The Innovation Engine
+      • AI Deployment: Moving beyond the hype to integrate agentic workflows into your core business logic.
+      • Product Management: Outcome-driven roadmapping that aligns user needs with business viability.
+      • Engineering: Scalable, resilient architecture designed for high-velocity growth.
+      2. The Growth Catalyst
+      • GTM & Sales Enablement: Synchronizing your product’s value proposition with your sales team’s execution.
+      • Lead & Demand Generation: Building repeatable, data-driven revenue engines with optimized unit economics.
+      • Strategic Partnerships: Unlocking new distribution channels and ecosystem value through collaborative innovation.
+      3. The Value Guard
+      • Intellectual Property: Transforming your proprietary innovations into defensible, high-value financial assets.
+      
+      The "PMP" Difference: Why Integrated Expertise Matters
+      Most firms specialize in only one corner of the map. They build great code but can’t sell it, or they design great
+      strategies that engineering can’t build.
+      We close the gap. By housing these seven critical disciplines under one roof, we eliminate the friction between
+      departments. When you partner with us, your AI strategy is informed by your IP protections, and your GTM plan is built
+      on the reality of your engineering velocity
+
+    </p>
+   </center>
+    
+     
+
+    
+
+  </div>
+ </section>
+ <br>
+ <br>
+ 
+
+
+ <div id="footer"></div>
+
+
+</body>
+
+</html>

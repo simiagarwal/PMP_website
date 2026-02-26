@@ -1,0 +1,90 @@
+<!-- strategy.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Strategy | ProductManagementPatners</title>
+ <link rel="stylesheet" href="styles.css">
+ <script>
+  function loadHeader() {
+   fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+     document.getElementById('header').innerHTML = data;
+    });
+  }
+
+  function loadFooter() {
+   fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+     document.getElementById('footer').innerHTML = data;
+    });
+  }
+ </script>
+</head>
+
+<body onload="loadHeader(); loadFooter();">
+ <div id="header"></div>
+ <br><br><br><br>
+ <section class="hero-content,hero h1, hero">
+  <div class="hero-content">
+ 
+   
+   <center>
+    <h2 style="color:white">Elevating Experiences through Intuitive Design</h2><br>
+   <p > Welcome to our world of user-centric design! At Product Management Partners, we believe that exceptional digital
+    experiences are about more than just pixels and wireframes — they’re about empathy, psychology and creating seamless
+    user interactions. In a world where user attention spans are fleeting and competition is fierce, crafting an intuitive
+    and delightful user experience is more critical than ever.</p>
+    <h2 style="color:white":> Why Choose Our User Experience Design Services?</h2><br><br>
+    <p>
+    <b>Expertise:</b>&nbsp;&nbsp;&nbsp;seasoned team of UX designers brings a wealth of experience to the table. We don't just design interfaces; we sculpt
+    immersive journeys that captivate users, reduce friction and drive engagement. Whether it’s a mobile app, a website, or
+    a software interface, our UX designers ensure that every interaction adds value.<br>
+    
+    <b>Data-Driven Approach:</b>&nbsp;&nbsp;&nbsp;
+    We blend creativity with analytics. Our process involves research, user testing, and data analysis to inform every
+    design decision. Our designs are for everyone. We consider accessibility, diversity, and inclusivity at every step,
+    ensuring that no user is left behind.<br>
+    
+    <b>Innovation and Creativity:</b>
+    &nbsp;&nbsp;&nbsp;
+    In a rapidly evolving digital landscape, standing out is non-negotiable. Our design solutions blend innovation with
+    creativity, ensuring your product not only meets industry standards but sets them.<br>
+    
+    <b>Holistic Collaboration:</b>
+    &nbsp;&nbsp;&nbsp;
+    Your vision is the driving force behind our designs. We believe in close collaboration, working hand-in-hand with your
+    product and engineering teams to translate ideas into visually stunning and user-friendly experiences. We don’t stop at
+    visuals. Our UX services cover User Research and Persona Development, Interaction Design, Information Architecture,
+    Visual Design, Wireframing and Prototyping, Usability Testing and Launch.<br>
+    
+    <b>Let's Create Something Extraordinary
+    Together!</b>&nbsp;&nbsp;&nbsp;
+    
+    Whether you’re launching a startup, revamping an existing product, or aiming for digital transformation, we can help you
+    create experiences that your users love to use.
+    
+    Remember, great UX isn’t a luxury—it’s a necessity.
+    Let’s make your users smile! 😊
+    </p>
+
+</center>
+ </section>
+
+
+
+
+ 
+ <br><br>
+ 
+ 
+ <div id="footer"></div>
+ 
+ 
+ </body>
+ 
+ </html>
